@@ -123,13 +123,27 @@ body {
 }
 
 .hero {
-    background-color: var(--dark-primary);
+    background-color: var(--primary-color);
     padding: 40px;
     margin: 20px;
     border-radius: 10px;
     width: fit-content;
     margin: 0 auto;
+    transition: transform 0.3s ease, background-color 0.3s
+    
+
 }
+
+.hero:hover {
+    background-color: rgba(0, 0, 0, 0);
+    padding: 40px;
+    margin: 20px;
+    border-radius: 10px;
+    width: fit-content;
+    margin: 0 auto;
+    transform: scale(1.2)
+}
+
 
 .bttn, .questions {
     font-size: 1.2rem;
@@ -178,5 +192,16 @@ body {
 .questions > textarea {
     background-color: rgba(215, 217, 250, 0.444);
    
+
+}
+
+.part  {
+    background-color: var(--dark-primary);
+    padding: 40px;
+    margin: 20px;
+    border-radius: 10px;
+    width: fit-content;
+    margin: 0 auto;
+    background-color: var(--primary-color);
 
 }
