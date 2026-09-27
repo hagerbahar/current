@@ -196,12 +196,22 @@ body {
 }
 
 .part  {
-    background-color: var(--dark-primary);
+    background-color:  rgba(32, 32, 132, 0.269);
+    border: 1px azure solid;
     padding: 40px;
     margin: 20px;
     border-radius: 10px;
     width: fit-content;
-    margin: 0 auto;
-    background-color: var(--primary-color);
+    margin: 40px auto;
+}
+
+.part-text {
+    font-size: 1.8rem;
+    word-spacing: 0.8;
+    letter-spacing: 2px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    color: rgba(250, 235, 215, 0.944);
 
 }
